@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-21T17:51:09 IST" name="Master Suite" finished-at="2025-05-21T17:51:13 IST" duration-ms="4710">
+    <groups>
+      <group name="Regression">
+        <method signature="TC005_CompareProduct.verify_Compair_Product()[pri:0, instance:testCases.TC005_CompareProduct@7776ab]" name="verify_Compair_Product" class="testCases.TC005_CompareProduct"/>
+      </group> <!-- Regression -->
+      <group name="master">
+        <method signature="TC005_CompareProduct.verify_Compair_Product()[pri:0, instance:testCases.TC005_CompareProduct@7776ab]" name="verify_Compair_Product" class="testCases.TC005_CompareProduct"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-05-21T17:51:09 IST" name="Test" finished-at="2025-05-21T17:51:13 IST" duration-ms="4710">
+      <class name="testCases.TC005_CompareProduct">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_CompareProduct@7776ab]" started-at="2025-05-21T17:51:09 IST" name="setup" finished-at="2025-05-21T17:51:12 IST" duration-ms="2925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Compair_Product()[pri:0, instance:testCases.TC005_CompareProduct@7776ab]" started-at="2025-05-21T17:51:12 IST" name="verify_Compair_Product" finished-at="2025-05-21T17:51:13 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Compair_Product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_CompareProduct@7776ab]" started-at="2025-05-21T17:51:13 IST" name="tearDown" finished-at="2025-05-21T17:51:13 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_CompareProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>
